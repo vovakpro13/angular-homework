@@ -21,6 +21,6 @@ import { FullPostComponent } from './components/full-post/full-post.component';
     PostsRoutingModule,
     HttpClientModule
   ],
-  providers: [PostsService]
+  providers: [PostsService, UsersService]
 })
 export class PostsModule { }

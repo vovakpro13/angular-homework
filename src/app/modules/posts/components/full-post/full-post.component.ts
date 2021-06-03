@@ -11,11 +11,19 @@ import {IPost, IUser} from "../../../../models";
 export class FullPostComponent implements OnInit {
 
   singlePost: IPost;
+  author: IUser;
 
-  constructor(private postsService:PostsService, private activatedRoute:ActivatedRoute) {
+  constructor(private postsService:PostsService, private activatedRoute:ActivatedRoute, private usersService:UsersService) {
     this.activatedRoute.params.subscribe(({postId}) =>{
+
       this.postsService.getPost(postId).subscribe(post =>{
+
         this.singlePost = post;
+
+        this.usersService.getUser(post.userId).subscribe(user =>{
+          this.author = user;
+        })
+
       })
     })
 
