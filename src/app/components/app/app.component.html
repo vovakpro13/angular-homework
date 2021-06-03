@@ -1,0 +1,13 @@
+
+<div [ngClass]="{menu: true}">
+  <div [ngClass]="{items: true}">
+    <a [routerLink]="['']">Home</a>
+    <a [routerLink]="['about']">About</a>
+    <a [routerLink]="['users']">Users</a>
+    <a [routerLink]="['posts']">Posts</a>
+  </div>
+</div>
+
+<div [ngClass]="{content: true}">
+  <router-outlet></router-outlet>
+</div>
