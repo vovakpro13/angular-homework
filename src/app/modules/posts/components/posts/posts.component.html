@@ -1,0 +1,24 @@
+<div>
+
+  <p [ngClass]="{pageTitle:true}">The posts</p>
+
+  <div [ngClass]="{content:true}">
+
+<!--    All posts  -->
+    <div [ngClass]="{posts:true}" *ngIf="posts; else preloader">
+      <app-post *ngFor="let post of posts" [post]="post"></app-post>
+    </div>
+
+    <!--    Single post  -->
+
+    <router-outlet></router-outlet>
+
+<!--    Preloader  -->
+    <ng-template #preloader>
+      <img src="https://flevix.com/wp-content/uploads/2020/01/Bounce-Bar-Preloader-1.gif" alt="preloader">
+    </ng-template>
+
+  </div>
+
+</div>
+

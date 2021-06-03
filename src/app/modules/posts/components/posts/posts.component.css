@@ -1,0 +1,25 @@
+.content{
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+
+
+}
+.posts{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 20px #f3f3f3;
+  border: 1px dashed #dbdbdb;
+  margin-right: 40px;
+}
+
+.smallSize{
+  flex-basis: 50%;
+}
+
+.singleBox{
+  flex-basis: 48%;
+}

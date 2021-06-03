@@ -1,0 +1,17 @@
+.user{
+  margin: 15px 5px;
+  padding: 4px 10px;
+  border: 1px dashed #cecece;
+  border-radius: 3px;
+}
+
+.user a{
+  text-decoration: none;
+  color: #3b3b3b;
+}
+
+.user:hover{
+  border: 1px solid #dedede;
+  box-shadow: 1px 1px 9px #ececec;
+  transition-duration: 0.2s;
+}

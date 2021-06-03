@@ -1,0 +1,24 @@
+.content{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.aboutBlock{
+  margin-top: 60px;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 760px;
+}
+
+.aboutBlock img{
+  width: 200px;
+  margin-right: 40px;
+}
+
+.text{
+  line-height: 30px;
+  color: #3b3b3b;
+}

@@ -1,0 +1,24 @@
+.post{
+  padding: 15px 20px;
+  background-color: rgba(252, 200, 193, 0.25);
+  color: #3b3b3b;
+  border-radius: 6px;
+  flex-basis: 26%;
+  margin: 10px;
+}
+a{
+  text-decoration: none;
+  color: #000000;
+}
+a:hover{
+  text-decoration: underline;
+}
+.title{
+  font-weight: 300;
+  font-size: 15px;
+
+}
+.id{
+  font-weight: 500;
+  margin-right: 10px;
+}

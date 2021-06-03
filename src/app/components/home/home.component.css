@@ -1,0 +1,33 @@
+.content{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 70px;
+}
+
+.buttonOpen{
+  padding: 3px 15px;
+  border: 1px solid #a1812f;
+  color: #a1812f;
+  border-radius: 6px;
+  font-size: 20px;
+  cursor: pointer;
+  margin-top: 20px;
+  font-weight: 200;
+}
+
+.buttonOpen:hover{
+  background-color: rgba(161, 129, 47, 0.63);
+  color: white;
+  transition-duration: 0.2s;
+}
+
+.home{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+}

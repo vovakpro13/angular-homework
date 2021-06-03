@@ -1,0 +1,6 @@
+<div [ngClass]="{post: true}">
+  <a [routerLink]="[post.id]">
+    <div [ngClass]="{title: true}"><span [ngClass]="{id:true}">ID: {{post.id}}</span> {{post.title}}</div>
+  </a>
+</div>
+
